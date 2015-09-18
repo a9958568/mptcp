@@ -1,0 +1,5 @@
+//---------14.04------------
+
+sudo passwd root
+sudo sh -c 'echo "greeter-show-manual-login=true" >> /usr/share/lightdm/lightdm.conf.d/50-ubuntu.conf'
+reboot
